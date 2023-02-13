@@ -27,3 +27,34 @@ body {
     font-size: 30px;
     margin-bottom: 20px;
 }
+
+.speaker-form {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+
+    width: 80%;
+    padding: 50px;
+    margin: 0 0 40px 0;
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-row input[type='text'] {
+    background-color: #fff;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.form-row label{
+    margin-bottom: 15px;
+}
