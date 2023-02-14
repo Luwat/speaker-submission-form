@@ -38,6 +38,8 @@ body {
     margin: 0 0 40px 0;
 }
 
+/* Styling the text input fields */
+
 .form-row {
     margin-bottom: 40px;
     display: flex;
@@ -57,4 +59,29 @@ body {
 
 .form-row label{
     margin-bottom: 15px;
+}
+
+/* Adding media Query */
+@media only screen and (min-widht:  700px) {
+    .speaker-form-header, .speaker-form {
+        width: 600px;
+    }
+
+    .form-row {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .form-row input[type="text"] {
+        width: 250px;
+        height: initial;
+    }
+
+    .form-row label {
+        text-align: right;
+        width: 120px;
+        margin-top: 7px;
+        padding-right: 20px;
+    }
 }
